@@ -1,4 +1,7 @@
-#trying to write using a class and TDD. 25 minute challenge
+# trying to write using a class and TDD. 25 minute challenge
+# NOT FINISHED! NOT FINISHED!
+# This was a speed exercise. No time for TDD.
+
 
 require "pry"
 
@@ -17,16 +20,20 @@ attr_reader :start_year, :array_of_years
       check_leap_year
     else
       puts "Those are the valid leap years for 20 years after your starting daye of #{start_year.to_s}."
-      break
     end
   end
 
   def check_leap_year
-    check = start_year + years_checked
+    check = start_year + @years_checked
     if check & 400 == 0
       "#{check} is NOT a valid leap year"
     elsif (check % 4 == 0)  || (check % 100 == 0)
       "#{check} is a valid leap year"
     else
+      "#{check} is NOT a valid leap year"
+    end
   end
 end
+
+leapy = LeapYears.new("2017")
+leapy.next_twenty
