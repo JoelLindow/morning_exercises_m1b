@@ -6,4 +6,5 @@ Wanted to use TDD but was too time consuming for exercise. Had to go "hackathon"
 
 Spent part of 25 minutes also setting up repo to push assignment.
 
-Assignment is not yet working. Time boxed and uploaded what was complete so far.
+
+<span style="color:blue">some *Assignment is not yet working. Time boxed and uploaded what was complete so far.* text</span>
