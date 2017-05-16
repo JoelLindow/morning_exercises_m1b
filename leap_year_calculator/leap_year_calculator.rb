@@ -6,26 +6,25 @@
 require "pry"
 
 class LeapYears
-attr_reader :start_year, :array_of_years
+attr_reader :start_year, :years_checked
 
   def initialize(start_year)
     @start_year = start_year.to_i
     @years_checked = 0
-    binding.pry
+    # binding.pry
   end
 
   def next_twenty
-    if years_checked <= 20
-      @years_checked += 1
-      check_leap_year
-    else
-      puts "Those are the valid leap years for 20 years after your starting daye of #{start_year.to_s}."
+    until years_checked == 21
+        puts check_leap_year
+        @years_checked += 1
     end
+    puts "Those are the valid leap years for 20 years after your starting date of #{start_year.to_s}."
   end
 
   def check_leap_year
-    check = start_year + @years_checked
-    if check & 400 == 0
+    check = start_year + years_checked
+    if check % 400 == 0
       "#{check} is NOT a valid leap year"
     elsif (check % 4 == 0)  || (check % 100 == 0)
       "#{check} is a valid leap year"

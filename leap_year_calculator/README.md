@@ -2,9 +2,7 @@
 
 25 minute exercise.
 
-Wanted to use TDD but was too time consuming for exercise. Had to go "hackathon" style. "Pry Driven Development".
+This exercise was intended to be done using "speed coding". No time allotted for Test Driven Development, Pseudo-Code or file structure. Intended to be done "Hack-a-thon Style"
 
-Spent part of 25 minutes also setting up repo to push assignment.
-
-
-Assignment is not yet working. Time boxed and uploaded what was complete so far.
+Joel Lindow
+Software Developer
