@@ -1,6 +1,10 @@
 # Allergy test
 
-This is a multi - day exercise. 20 to 25 minutes per day allowed for a total of 2 - 3 days.
+This is a multi - day exercise. 20 to 25 minutes per day allowed for a total of 2 - days.
+
+### How to run
+
+First off, you'll need the proper allergy code to decode. For a default, try Jorge's score 
 
 Joel Lindow
 Software Designer
